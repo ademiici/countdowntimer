@@ -1,8 +1,18 @@
+body{
+    background: url(/images/pexels-karolina-grabowska-4041285.jpg);
+    background-position: center  center;
+    background-size: cover;
+    background-repeat: no-repeat;  
 
-p {
-    /* font-family: 'Roboto', sans-serif; */
+}
+h2{
     font-family: 'Tilt Prism', cursive;
-    text-align: center;
-    font-size: 5vw;
-    margin-top: 20vh;
+    
+    font-size: 6vw;
+    margin-top: 25vh;
+}
+p{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 4.8vw;
+    margin-top: 3vh;
 }
