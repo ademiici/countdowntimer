@@ -7,12 +7,27 @@ body{
 }
 h2{
     font-family: 'Tilt Prism', cursive;
-    
-    font-size: 6vw;
+    font-size: 4.93vw;
     margin-top: 25vh;
+    transition: all 4s ease;
+    transform: translateY(5%);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+}
+@keyframes example {
+    from{      
+        transform: translateY(-15vh);       
+    }
+    to{  
+        transform: translateY(0);
+    }   
 }
 p{
     font-family: 'Tilt Prism', cursive;
-    font-size: 4.8vw;
+    font-size: 4.2vw;
     margin-top: 3vh;
 }
